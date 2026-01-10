@@ -1,0 +1,133 @@
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #2c3e50;
+            --success-color: #27ae60;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 5px solid var(--primary-color);
+        }
+        
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            margin-bottom: 1.5rem;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+        }
+        
+        .nav-tabs .nav-link {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+        
+        .nav-tabs .nav-link.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .table-responsive {
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #dee2e6;
+        }
+        
+        .result-box {
+            background-color: #f8f9fa;
+            border: 1px dashed #ced4da;
+            border-radius: 6px;
+            padding: 12px;
+            font-family: monospace;
+            word-break: break-all;
+            margin-top: 8px;
+        }
+        
+        .copy-btn {
+            cursor: pointer;
+            color: var(--primary-color);
+            transition: color 0.2s;
+        }
+        
+        .copy-btn:hover {
+            color: var(--secondary-color);
+        }
+        
+        .generated-id {
+            font-weight: 600;
+            color: var(--success-color);
+        }
+        
+        .tab-content {
+            padding-top: 1.5rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .form-label {
+            font-weight: 500;
+            color: var(--secondary-color);
+        }
+        
+        .table th {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+        
+        .table-hover tbody tr:hover {
+            background-color: rgba(52, 152, 219, 0.1);
+        }
+        
+        /* Toast para notificaciones */
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1055;
+        }
+        
+        .toast {
+            background-color: var(--success-color);
+            color: white;
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .badge-rotation {
+            background-color: var(--primary-color);
+            font-size: 0.75rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .table th, .table td {
+                padding: 0.5rem;
+            }
+            
+            .toast-container {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+            }
+        }
