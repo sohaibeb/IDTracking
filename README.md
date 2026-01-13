@@ -1,4 +1,4 @@
-[**Versión Aplicación:** 1.0 | **Versión ReadMe:** 1.0 | **Última Actualización:** 10/01/2026]
+[**Versión Aplicación:** 1.0 | **Versión ReadMe:** 1.2 | **Última Actualización:** 13/01/2026]
 
 # ID Tracking - Versión 1.0
 
@@ -108,6 +108,10 @@ id-tracking/
 - [ ] **Búsqueda en tablas**: Funcionalidad de filtrado/búsqueda dentro de las tablas
 - [ ] **Ordenación de columnas**: Posibilidad de ordenar por cualquier columna
 - [ ] **Paginación de tablas**: Para manejar grandes cantidades de registros
+
+### Función Adicional
+- [ ] **Mejorar la robustez de la operación de codificación mediante números Primos**
+
 
 ## Limitaciones Conocidas
 1. Los nombres de empresa deben contener solo letras, números y espacios
