@@ -1,4 +1,4 @@
-        :root {
+:root {
             --primary-color: #2c3e50;
             --secondary-color: #2c3e50;
             --success-color: #27ae60;
@@ -65,6 +65,21 @@
             color: var(--secondary-color);
         }
         
+        .view-btn {
+            cursor: pointer;
+            color: #6c757d;
+            transition: color 0.2s;
+        }
+        
+        .view-btn:hover {
+            color: var(--primary-color);
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        
         .generated-id {
             font-weight: 600;
             color: var(--success-color);
@@ -129,5 +144,10 @@
                 top: 10px;
                 right: 10px;
                 left: 10px;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+                gap: 3px;
             }
         }
