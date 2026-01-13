@@ -98,13 +98,13 @@ id-tracking/
 ## To-Do (Funcionalidades Pendientes)
 
 ### Funcionalidades de Exportación/Importación
-- [ ] **Exportar tabla completa a CSV**: Botón para descargar todos los IDs generados en formato CSV
-- [ ] **Exportar para decodificador**: Exportar solo ID final y clave en CSV para uso en decodificador
-- [ ] **Importar CSV para decodificar**: Cargar archivo CSV con IDs y claves para decodificación masiva
-- [ ] **Selector de formato de exportación**: Opciones para diferentes formatos de salida
+- [X] **Exportar tabla completa a CSV**: Botón para descargar todos los IDs generados en formato CSV
+- [X] **Exportar para decodificador**: Exportar solo ID final y clave en CSV para uso en decodificador
+- [X] **Importar CSV para decodificar**: Cargar archivo CSV con IDs y claves para decodificación masiva
+- [X] **Selector de formato de exportación**: Opciones para diferentes formatos de salida
 
 ### Mejoras de Visualización
-- [ ] **Ver texto completo**: Botón de "ojo" para mostrar strings completos en modal (especialmente útil para IDs largos)
+- [X] **Ver texto completo**: Botón de "ojo" para mostrar strings completos en modal (especialmente útil para IDs largos)
 - [ ] **Búsqueda en tablas**: Funcionalidad de filtrado/búsqueda dentro de las tablas
 - [ ] **Ordenación de columnas**: Posibilidad de ordenar por cualquier columna
 - [ ] **Paginación de tablas**: Para manejar grandes cantidades de registros
